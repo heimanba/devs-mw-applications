@@ -1,0 +1,16 @@
+service:
+  name: dankun-midway-app
+
+provider:
+  name: aliyun
+  runtime: nodejs12
+
+aggregation:
+  hexo-demo:
+    functionsPattern:
+      - '*'
+
+package:
+  include:
+    - public
+    - s.yaml

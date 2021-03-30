@@ -1,0 +1,17 @@
+dankun-demo:
+  Component: /Users/yk/heimanba/aliFE/jmstack-proj/midway-faas-component/lib/index.js
+  Provider: alibaba
+  Access: default
+  Properties:
+    service:
+      name: dankun-midway-app
+    provider:
+      name: aliyun
+      runtime: nodejs12
+    aggregation:
+      hexo:
+        functionsPattern:
+          - '*'
+    package:
+      include:
+        - public
